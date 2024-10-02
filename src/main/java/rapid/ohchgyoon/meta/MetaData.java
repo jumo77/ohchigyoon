@@ -38,8 +38,6 @@ public class MetaData {
             if (date.contains(key)) return true;
             if (category.contains(key)) return true;
             if (material.contains(key)) return true;
-            if (width==Integer.parseInt(key)) return true;
-            if (height==Integer.parseInt(key)) return true;
         }
         return false;
     }
